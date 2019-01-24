@@ -1,0 +1,37 @@
+@import "reset.css";
+
+header {
+	grid-area: header;
+	background-color: yellow;
+}
+aside {
+	grid-area: aside;
+	background-color: mediumseagreen;
+}
+section {
+	grid-area: section;
+	background-color: lightskyblue;
+}
+nav {
+	grid-area: nav;
+	background-color: palevioletred;
+}
+nav > ul > li {
+	display: inline;
+}
+footer {
+	grid-area: footer;
+	background-color: yellow;
+}
+
+#app {
+	display: grid;
+	height: 100%;
+	grid-template-areas:
+		'header header'
+		'aside nav'
+		'aside section'
+		'footer footer';
+	grid-template-columns: 30vw auto;
+	grid-template-rows: 20px 40px auto 20px;
+}
