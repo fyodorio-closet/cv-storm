@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="styles.scss">
 	<script src="main.js"></script>
 </head>
-<body id="app">
+<body id="app" ng-app="app">
 	<header>
 		<i class="fas fa-circle"></i>
 		<i class="fas fa-circle"></i>
@@ -50,7 +50,9 @@
 		</ul>
 	</nav>
 
-	<section>content of each page</section>
+	<section>
+		<app></app>
+	</section>
 
 	<footer>status bar</footer>
 </body>

@@ -1,7 +1,11 @@
+import 'angular';
+
 (function () {
-	// const app = document.getElementById("app");
-	// const header = document.createElement("H1");
-	// const testText = document.createTextNode("TEST");
-	// header.appendChild(testText);
-	// app.appendChild(header);
+	angular.module('app', [])
+	.component('app', {
+		template: `<div>{{$ctrl.test}}</div>`,
+		controller: function () {
+			this.test = 'test'
+		}
+	})
 })();
