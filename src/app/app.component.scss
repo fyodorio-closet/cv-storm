@@ -1,5 +1,5 @@
-@import url('./reset.css');
-@import url('./fontawesome/css/all.min.css');
+@import url('../../assets/reset.css');
+@import url('../../assets/fontawesome/css/all.min.css');
 
 header {
 	grid-area: header;
@@ -25,7 +25,7 @@ footer {
 	background-color: yellow;
 }
 
-#app {
+body {
 	display: grid;
 	height: 100%;
 	grid-template-areas:

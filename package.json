@@ -1,23 +1,19 @@
 {
   "name": "cv-storm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "version": "0.1.0",
+  "description": "Frameworkless Personal Site Template",
+  "main": "src/main.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "start": "npm run serve",
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Fyodor Loenko",
+  "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.11.0",
     "sass": "^1.16.1"
-  },
-  "dependencies": {
-    "angular": "^1.7.6",
-    "fontawesome": "^5.6.3",
-    "reset.css": "^2.0.2"
   }
 }

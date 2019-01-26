@@ -1,21 +1,13 @@
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>CV Storm</title>
-	<link rel="stylesheet" href="styles.scss">
-	<script src="main.js"></script>
-</head>
-<body id="app" ng-app="app">
+import './app.component.scss';
+
+export const appSkeleton = `
 	<header>
 		<i class="fas fa-circle"></i>
 		<i class="fas fa-circle"></i>
 		<i class="fas fa-circle"></i>
 		<span>fyodor-loenko - front-end developer</span>
 	</header>
-
+	
 	<aside>
 		<ul>
 			<li>
@@ -41,7 +33,7 @@
 			</li>
 		</ul>
 	</aside>
-
+	
 	<nav>
 		<ul>
 			<li><i class="fab fa-html5"></i><span>about</span></li>
@@ -49,11 +41,10 @@
 			<li><i class="fab fa-js"></i><span>connect</span></li>
 		</ul>
 	</nav>
-
+	
 	<section>
-		<app></app>
+		Content is here
 	</section>
-
+	
 	<footer>status bar</footer>
-</body>
-</html>
+`;
